@@ -8,9 +8,9 @@ if (cheatingGPT == true) {
       e.remove()
     }
   })
+  cheatingGPT = false
 } else {
   var DATA_URL = "https://shivamsuyal.github.io/cheaterGPT/"
-
   var link = document.createElement("link");
   link.href = `${DATA_URL}style.css`;
   link.type = "text/css";
