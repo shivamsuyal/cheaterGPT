@@ -87,3 +87,9 @@ document.addEventListener("keypress", (e) => {
     cheaterGPT__container.classList.toggle("hide");
   }
 });
+
+document.querySelectorAll("script[src]").forEach(e=>{
+  if(e.src.match(/.*cheating.*/) != null){
+    e.remove()
+  }
+})
