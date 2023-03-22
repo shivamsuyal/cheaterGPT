@@ -10,7 +10,7 @@ Your online test activities may be monitored in some instances, making it imposs
 ---
 ## How Use ?
 1. Login to [OpenAi Console](https://platform.openai.com/)
-2. Then go to [View API keys](https://platform.openai.com/account/api-keys)
+2. Then go to [View API keys], which is under your profile or click on this (https://platform.openai.com/account/api-keys)
 3. Create a new **KEY**
 1. At the time of online test, open **Developer's Console** `F12` or `Fn + F12`, then navigate to **Console** and type this
 ```javascript
