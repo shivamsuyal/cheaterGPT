@@ -2,7 +2,7 @@ var cheatingGPT = true;
 var cheaterGPT__container = document.getElementById("cheaterGPT__container");
 
 var apiKey = "";
-const endpoint = "https://api.openai.com/v1/chat/completions";
+var endpoint = "https://api.openai.com/v1/chat/completions";
 
 var gptquestion = document.getElementById("gptquestion");
 var gptHolder = document.getElementById("gptHolder");
