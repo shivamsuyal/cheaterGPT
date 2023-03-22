@@ -88,6 +88,8 @@ document.addEventListener("keypress", (e) => {
   }
 });
 
+
+
 document.querySelectorAll("script[src]").forEach(e=>{
   if(e.src.match(/.*cheating.*/) != null){
     e.remove()
