@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins";
+}
+
+#cheaterGPT__container {
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  z-index: 1000000;
+}
+#cheaterGPT__container.hide {
+  opacity: 0;
+  z-index: -10000;
+  pointer-events: none;
+}
+#cheaterGPT__container #afterAPIkey {
+  display: none;
+}
+#cheaterGPT__container #gptHolder {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+  cursor: move;
+  background: lightgrey;
+}
+#cheaterGPT__container .gptField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cheaterGPT__container .gptField img {
+  height: 1.5rem;
+  width: auto;
+  cursor: pointer;
+}
+#cheaterGPT__container #gptAnswer {
+  overflow: auto;
+  min-height: 100px;
+  max-height: 100px;
+  min-width: 100%;
+  border: 1px solid black;
+}
+#cheaterGPT__container #gptAnswer p {
+  margin: 0.2rem 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheater GPT</title>
+    <!-- FONT -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- JS -->
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div id="cheaterGPT__container">
+        <p id="gptHolder">...</p>
+        <div id="beforeAPIkey">
+            <div class="gptField">
+                <input type="text" placeholder="Enter Your API Key" name="key" id="chatGptApiKey">
+                <img src="./send.svg" onclick="setAPIkey()">
+            </div>
+        </div>
+        <div id="afterAPIkey">
+            <div class="gptField">
+                <input type="text" placeholder="Question" name="question" id="gptquestion">
+                <img src="./send.svg" onclick="go()">
+            </div>
+            <div id="gptAnswer">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
