@@ -1,14 +1,18 @@
 var cheatingGPT;
 if (cheatingGPT == true) {
+  console.log("removing")
+  cheatingGPT = false
+
   document.querySelectorAll(".cGPT").forEach((e) => {
     e.remove();
   });
   document.querySelectorAll('script[src]').forEach(e=>{
-    if(e.src.match(/.*cheater.*/)[0] != null){
-      e.remove()
+    if(e != null){
+      if(e.src.match(/.*cheater.*/)[0] != null){
+        e.remove()
+      }
     }
   })
-  cheatingGPT = false
 } else {
   var DATA_URL = "https://shivamsuyal.github.io/cheaterGPT/"
   var link = document.createElement("link");
