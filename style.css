@@ -12,6 +12,7 @@ html, body {
 }
 
 #cheaterGPT__container {
+  border: 1px solid black;
   width: -moz-fit-content;
   width: fit-content;
   position: absolute;
