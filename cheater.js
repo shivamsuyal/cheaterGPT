@@ -1,4 +1,4 @@
-const DATA_URL = "./"
+const DATA_URL = "https://shivamsuyal.github.io/cheaterGPT/"
 
 
 var link = document.createElement( "link" );
